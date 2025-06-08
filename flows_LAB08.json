@@ -1,0 +1,37 @@
+[
+    {
+        "id": "0e331229fcb459ae",
+        "type": "change",
+        "z": "bc98b8acdc40f590",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.variabledata.0.y",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "InfluxDB",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 380,
+        "y": 460,
+        "wires": [
+            [
+                "eb49533be28cdd18",
+                "77377e1bc9b9371a"
+            ]
+        ]
+    }
+]
